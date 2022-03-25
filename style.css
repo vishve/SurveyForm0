@@ -1,0 +1,45 @@
+/* css reset */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #heading {
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+  }
+  
+  #title {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+  }
+
+  #survey-form {
+    background-color: blue;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+  }
+
+  #submit {
+    background: green;
+    color: white;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background: rgb(9, 104, 168);
+  }
+
+.form {
+  width: 100%;
+  padding: .7rem;
+  border-radius: 6px;
+  font-size: 1.0rem;
+  border: none;
+}
